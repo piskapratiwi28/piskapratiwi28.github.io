@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf2f8;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #255e75;
+}
+header {
+  background-color: #487f8d;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  box-shadow: 0 4px 8px rgba(0, 136, 146, 0.2);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #bac0c2;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: linear-gradient(to right, #3fc1c5, #ace3fd);
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.hero-content {
+  max-width: 400px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-bottom: 15px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  background-color: #3de8ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.2s;
+}
+.buttons button:hover {
+  background-color: #80b9da;
+  transform: scale(1.05);
+}
+
+.icons img.icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+
