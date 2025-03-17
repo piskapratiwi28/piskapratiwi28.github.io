@@ -49,37 +49,30 @@ nav ul li a:hover {
 .hero-content {
   max-width: 400px;
 }
-.profile-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid white;
-  margin-bottom: 15px;
-}
-.buttons {
-  margin-top: 20px;
-}
-.buttons button {
-  background-color: #3de8ff;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
-  border-radius: 8px;
-  margin: 5px;
-  font-size: 16px;
-  transition: background 0.3s ease, transform 0.2s;
-}
-.buttons button:hover {
-  background-color: #80b9da;
-  transform: scale(1.05);
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Jarak antara foto dan teks */
 }
 
-.icons img.icon {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s ease;
+.profile-pic {
+  width: 150px; /* Sesuaikan ukuran foto profil */
+  height: 170px;
+  border-radius: 50%; /* Membuat foto bulat */
 }
 
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  gap: 10px; /* Jarak antar ikon */
+}
+
+.icon {
+  width: 30px; /* Ukuran ikon */
+  height: 30px;
+}
 
